@@ -19,11 +19,12 @@
 #     print('al doilea jucator a castigat')
 
 ##EX2
-def genereaza_factura(**kwargs):
-    for nume, [nrprod, pret] in kwargs.items():
-        print("%s,%s,%s" % (nrprod, nume, pret))
+# def genereaza_factura(**kwargs):
+#     for nume, [nrprod, pret] in kwargs.items():
+#         print("%s,%s,%s" % (nrprod, nume, pret))
 
-genereaza_factura(ION=[2,10], PAUL=[3,15], Andrei=[1,20])
+# genereaza_factura(ION=[2,10], PAUL=[3,15], Andrei=[1,20])
+
         
 
 
